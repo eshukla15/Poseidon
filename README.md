@@ -1,4 +1,4 @@
-#🖥️  Poseidon - Lil bro of Zeus(Keylogger)
+# 🖥️  Poseidon - Lil bro of Zeus(Keylogger)
 (Educational Purpose Only)
 
 ## 📌 Overview
@@ -38,13 +38,13 @@ pip install pynput
    ```
 3. Keystrokes will be logged in log.txt.
 
-##🔒 Security Note
+## 🔒 Security Note
 Always run such tools in a controlled environment (like a virtual machine).
 This project is meant to teach how keyloggers work, so you can learn how to detect and prevent them in real-world systems.
 
-##🕵️ Running in Background (Stealth Mode)
+## 🕵️ Running in Background (Stealth Mode)
 
-#Windows
+# Windows
 You can run the script silently in the background by:
 ```bash
 pythonw keylogger.py
@@ -56,7 +56,7 @@ pyinstaller --onefile --noconsole keylogger.py
 ```
 This will generate an executable that runs without a console window.
 
-#Linux / Mac
+# Linux / Mac
 Run the script in the background:
 ```bash
 nohup python3 keylogger.py &
